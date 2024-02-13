@@ -9,7 +9,7 @@ import { FaTwitter, FaInstagram, FaFacebookF } from "react-icons/fa";
 export default function App(){
   return(
     <>
-      <div className="text-white p-8 font-Poppins md:p-5 flex flex-col md:flex-row justify-center bg-[url('/images/bg-mobile.svg')] bg-Violet h-auto md:bg-[url('/images/bg-desktop.svg')] bg-no-repeat bg-contain">
+      <div className="text-white p-8 font-Poppins md:p-5 flex flex-col md:flex-row justify-center bg-[url('/images/bg-mobile.svg')] bg-Violet min-h-screen md:bg-[url('/images/bg-desktop.svg')] bg-no-repeat bg-contain">
           <div className="image">
             <div className="logo md:p-5">
               <img src={logo} className="h-10 2xl:h-[60px]" alt="" />
